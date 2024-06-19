@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-booleanarray@esm/index.mjs';
+import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-booleanarray@v0.0.1-esm/index.mjs';
 ```
 
 #### isBooleanArray( value )
@@ -87,7 +87,7 @@ import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@es
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
 import BooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-bool@esm/index.mjs';
-import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-booleanarray@esm/index.mjs';
+import isBooleanArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-booleanarray@v0.0.1-esm/index.mjs';
 
 var bool = isBooleanArray( new BooleanArray( 10 ) );
 // returns true
