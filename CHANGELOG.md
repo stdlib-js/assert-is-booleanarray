@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-05-19)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ccf69dc`](https://github.com/stdlib-js/stdlib/commit/ccf69dc0beccc374941e7edfb766a1732d994cbd) - **docs:** fix description _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.0.2">
 
 ## 0.0.2 (2024-07-29)
