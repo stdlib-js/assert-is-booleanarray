@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-07-08)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`de93d8f`](https://github.com/stdlib-js/stdlib/commit/de93d8f17831ad02c68e33181fa9226f88e42d29) - **chore:** resolve lint errors and update examples _(by Athan Reines)_
 -   [`ccf69dc`](https://github.com/stdlib-js/stdlib/commit/ccf69dc0beccc374941e7edfb766a1732d994cbd) - **docs:** fix description _(by Athan Reines)_
 
 </details>
