@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,29 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { BooleanArray } from '@stdlib/types/array';
 
 /**
-* Test if a value is a BooleanArray.
+* Tests if a value is a BooleanArray.
 *
-* @module @stdlib/assert-is-booleanarray
+* @param value - value to test
+* @returns boolean indicating whether a value is a BooleanArray
 *
 * @example
 * var BooleanArray = require( '@stdlib/array-bool' );
-* var isBooleanArray = require( '@stdlib/assert-is-booleanarray' );
 *
 * var bool = isBooleanArray( new BooleanArray( 10 ) );
 * // returns true
 *
-* bool = isBooleanArray( [] );
+* @example
+* var bool = isBooleanArray( [] );
 * // returns false
 */
-
-// MODULES //
-
-var isBooleanArray = require( './main.js' );
+declare function isBooleanArray( value: any ): value is BooleanArray;
 
 
 // EXPORTS //
 
-module.exports = isBooleanArray;
+export = isBooleanArray;
